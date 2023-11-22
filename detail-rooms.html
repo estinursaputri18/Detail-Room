@@ -125,22 +125,19 @@
                             <input type="date" id="check-in" name="check-in" required>
                         </div>
                         <div class="form-group">
-                            <label for="quantity">Periode Sewa :</label>
-                            <select id="quantity" name="quantity" required>
-                             <option></option>
-                              <option>1 Bulan</option>
-                              <option>3 Bulan</option>
-                              <option>6 Bulan</option>
-                              <option>1 Tahun</option>
-                              <option>2 Tahun</option>
-                              <option>3 Tahun</option>
-                              <option>4 Tahun</option>
-                              <option>5 Tahun</option>
+                            <label for="rentalPeriod">Periode Sewa :</label>
+                            <select id="rentalPeriod" name="rental-period" required>
+                             <option value="0"></option>
+                              <option value="1">1 Bulan</option>
+                              <option value="3">3 Bulan</option>
+                              <option value="6">6 Bulan</option>
+                              <option value="12">1 Tahun</option>
                             </select>
-                        </div>
-                       
-                        <label>Total Pembayaran</label>
-                        <div id="total">Rp</div>
+                        </div class="form-group">
+                    
+            
+                        <label for="totalPayment">Total Pembayaran:</label>
+                        <span id="totalPayment">Rp</span>
 
                         <button type="submit">Ajukan Sewa</button>
                     </form>
